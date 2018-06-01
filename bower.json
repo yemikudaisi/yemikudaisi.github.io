@@ -1,0 +1,25 @@
+{
+  "name": "yemikudaisi.github.io",
+  "homepage": "yemikudaisi.github.io",
+  "authors": [
+    "Yemi Kudaisi <yemikudaisi@gmail.com>"
+  ],
+  "description": "Personal portfolio website",
+  "main": "index.html",
+  "keywords": [
+    "yemi",
+    "kudaisi"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery.scrollTo": "^2.1.2"
+  }
+}

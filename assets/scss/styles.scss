@@ -1,0 +1,72 @@
+@import url("common.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$page-height: 600px;
+$anchor-color: #A3CFF3;
+$background-color: #0D819D;
+$menu-active-border: 5px solid $anchor-color;
+
+h1{
+	font-size: 4.2em;
+	display: block;
+	line-height: 1;
+}
+body {
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
+	background-color: $background-color;
+	font-size: 21px;
+	line-height: 1em;
+	
+	.main-container {
+		margin-right: 10%;
+		width: 90%;
+		background:  black;
+		clear: left;
+		.page{
+			height: $page-height;	
+		}
+	}
+}
+
+a {
+	color: #848491;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+}
+
+header{
+	nav {
+		overflow: hidden;
+		position: fixed; /* Set the navbar to fixed position */
+		top: 0; /* Position the navbar at the top of the page */
+		width: 100%; /* Full width */
+		ul{
+			a {
+			float: left;
+			display: block;
+			color: $anchor-color;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		a.isActive{
+			border{
+				bottom: $menu-active-border
+			}
+		}
+		a:hover {
+			background: $anchor-color;
+			color: $background-color;
+		}
+		}
+	}	
+}
+
+.main-container {
+	margin-top: 80px;
+}
+

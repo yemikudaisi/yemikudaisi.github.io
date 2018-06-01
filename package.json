@@ -1,0 +1,22 @@
+{
+  "name": "yemikudaisi.github.io",
+  "version": "1.0.0",
+  "description": "Personal/portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yemikudaisi/yemikudaisi.github.io.git"
+  },
+  "author": "Yemi Kudaisi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yemikudaisi/yemikudaisi.github.io/issues"
+  },
+  "homepage": "https://github.com/yemikudaisi/yemikudaisi.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

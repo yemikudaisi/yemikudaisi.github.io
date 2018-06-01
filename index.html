@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en_US">
+	<head>
+		<title>Yemi Kudaisi</title>
+		<meta charset="utf-8" />
+		<meta property="og:title" content="Yemi Kudaisi" />
+		<meta property="og:description" name="description" content="Yemi Kudaisi is an higly motivated software developer" />
+		<meta property="og:image" content="https://yemikudaisi.github.io/favicon.png" />
+		<meta property="og:url" content="https://yemikudaisi.github.io/" />
+		<meta property="og:type" content="website" />
+		<meta name="description" content="Yemi Kudaisi is an higly motivated software developer" />
+		<!--Icons-->
+		<!--Scripts-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+		<!--Styles-->
+		<link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+	</head>
+	
+	<body id="body">
+		<header>
+			<nav>
+				<ul>
+					<li><a class="active" href="#about">About</a></li>
+					<li><a href="#works">Works</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="main-container">
+			<section id="landing" class="page">
+				<h1>Welcome</h1>
+			</section>
+			<section id="about" class="page">
+				<div>
+				<h1>About me</h1></div>
+			</section>
+			<section id="works" class="page">
+				<div>
+					<h1>My works</h1>
+				</div>
+			</section>
+			<section id="contact" class="page">
+				<div>
+					<h1>Contact me</h1>
+				</div>
+			</section>
+		</div>
+		<footer class="footer">
+			<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+			<script>
+				// Initialize Firebase
+				var config = {
+					apiKey: "AIzaSyBrJq1roSfbqwchM5IWP-T22kCzN0daGrw",
+					authDomain: "yemikudaisi-website.firebaseapp.com",
+					databaseURL: "https://yemikudaisi-website.firebaseio.com",
+					projectId: "yemikudaisi-website",
+					storageBucket: "yemikudaisi-website.appspot.com",
+					messagingSenderId: "447744926632"
+				};
+				//firebase.initializeApp(config);
+			</script>
+			<script src="bower_components/jquery/dist/jquery.js"></script>
+			<script src="bower_components/jquery.scrollTo/jquery.scrollTo.js"></script>
+			<script>
+				$('.smooth').on('click', function() {
+					$.smoothScroll({
+						scrollElement: $('body'),
+						scrollTarget: '#' + this.id
+					});
+					
+					return false;
+				});
+			</script>
+			
+		<script type="text/javascript" src="./assets/js/site.js"></script>
+		</body>
+	</html>		
